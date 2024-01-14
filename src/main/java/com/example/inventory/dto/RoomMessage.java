@@ -1,0 +1,17 @@
+package com.example.inventory.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RoomMessage {
+
+    private Long hotelId;
+
+    private String startDate;
+
+    private String endDate;
+}
